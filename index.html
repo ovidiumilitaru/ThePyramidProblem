@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Pyramid Problem</title>
+</head>
+<body>
+    <h1>The Pyramid Problem</h1>
+    <p>This app draws a pyramid into a matrix with <span>x</span> lines and columns</p>
+
+    <form action="#" id="linesandcolumns" method="post" name="linesandcolumns">
+        <div class="lines" id="lines">
+            <label for="lines">Insert number of lines & columns:</label><br>
+            <input type="number" name="lines" id="nrlines" min="3" max="20" step="any"><br><br>
+        </div>
+        <button id="dec">Generate the matrix and the pyramid</button>
+        
+    </form><br>
+
+    <div id="demo"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
